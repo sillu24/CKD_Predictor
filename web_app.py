@@ -8,13 +8,7 @@ Created on Sun Jan 22 00:34:06 2023
 import numpy as np
 import pickle
 
-from pathlib import Path
-import os
 import streamlit as st
-
-curr=Path(os.getcwd())
-mypath=curr/'trained_model.sav'
-print(mypath)
 
 loaded_model=pickle.load(open(mypath,'rb')) 
 
