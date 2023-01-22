@@ -10,7 +10,7 @@ import pickle
 
 import streamlit as st
 
-loaded_model=pickle.load(open('https://github.com/sillu24/CKD_Predictor/blob/main/trained_model.sav','rb')) 
+loaded_model=pickle.load(open(https://github.com/sillu24/CKD_Predictor/blob/main/trained_model.sav,'rb')) 
 
 #cretaing a function for prediction
 def ckd_prediction(input_data):
